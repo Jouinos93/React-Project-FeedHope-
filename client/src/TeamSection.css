@@ -1,0 +1,35 @@
+.team-section-card {
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.title {
+
+  padding: 20px;
+}
+.team-member-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.title h3 {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.team-section-card p {
+  font-size: 16px;
+  color: #555;
+}
+.team-member-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  margin-bottom: 20px;
+}

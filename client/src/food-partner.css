@@ -1,0 +1,53 @@
+/* food-partner.css */
+
+.food-partner-card {
+  padding: 30px;
+}
+
+.food-partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.food-partner-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.food-partner h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Center the carousel indicators and controls */
+.carousel-indicators {
+  bottom: -35px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #dc3545;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.carousel-control-prev-icon {
+  margin-right: 5px;
+}
+
+.carousel-control-next-icon {
+  margin-left: 5px;
+}

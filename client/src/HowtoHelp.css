@@ -1,0 +1,30 @@
+/* Add your custom styles for the HowtoHelp component here */
+
+.how-to-help {
+    text-align: center;
+  }
+  
+  .donate-food-card {
+    background-color: #f7ad52da;
+    color: #fff;
+    border: none;
+  }
+  
+  .be-volunteer-card {
+    background-color: #1b9e9ed0;
+    color: #fff;
+    border: none;
+  }
+  
+  .donate-food-card .card-title,
+  .be-volunteer-card .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .donate-food-card .card-text,
+  .be-volunteer-card .card-text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,31 @@
+/* footer.css */
+
+/* Styling for the footer */
+.footer {
+    background-color: #0c3e41;
+    color: #fff;
+  }
+  .logo-img{
+    height: 150px; 
+  }
+  
+  /* Styling for the icons */
+  .icon {
+    font-size: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Styling for the map */
+  .map {
+    border: none;
+    margin-top: 20px;
+  }
+  
+  /* Media query for medium-sized screens */
+  @media (max-width: 768px) {
+    .icon {
+      font-size: 20px;
+    }
+  }
+  
